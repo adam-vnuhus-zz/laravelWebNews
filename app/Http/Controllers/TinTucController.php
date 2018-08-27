@@ -57,6 +57,7 @@ class TinTucController extends Controller
         $tintuc->idLoaiTin = $request->LoaiTin;
         $tintuc->TomTat = $request->TomTat;
         $tintuc->NoiDung = $request->NoiDung;
+        $tintuc->NoiBat = $request->NoiBat;
         $tintuc->SoLuotXem = 0;
     	// check loi
     	// echo changeTitle($request->Ten);

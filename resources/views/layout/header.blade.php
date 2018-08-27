@@ -9,18 +9,18 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Tin Tức</a>
+                <a class="navbar-brand" href="trangchu">Tin Tức</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <!-- <ul class="nav navbar-nav">
                     <li>
                         <a href="#">Giới thiệu</a>
                     </li>
                     <li>
                         <a href="#">Liên hệ</a>
                     </li>
-                </ul>
+                </ul> -->
 
                 <form action="timkiem" method="POST" 
                 class="navbar-form navbar-left" role="search">
@@ -34,9 +34,9 @@
 			    <ul class="nav navbar-nav pull-right">
                     @if(!(auth()->check()))
 
-                        <li>
+                        <!-- <li>
                             <a href="dangky">Đăng ký</a>
-                        </li>
+                        </li> -->
                         <li>
                             <a href="dangnhap">Đăng nhập</a>
                         </li>
