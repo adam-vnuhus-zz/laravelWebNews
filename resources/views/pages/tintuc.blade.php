@@ -15,7 +15,7 @@
 
 			<!-- Author -->
 			<p class="lead">
-				by <a href="#">admin</a>
+				by <a >admin</a>
 			</p>
 
 			<!-- Preview Image -->
@@ -39,7 +39,7 @@
 			<div class="well">
 
 				@if(session('thongbao'))
-				<div class="alert alert-danger">
+				<div class="alert alert-success">
 					{{session('thongbao')}}
 				</div>
 				
@@ -62,7 +62,7 @@
 			<!-- Comment -->
 			@foreach($tintuc->comment as $cm)
 			<div class="media">
-				<a class="pull-left" href="#">
+				<a class="pull-left" >
 					<img class="media-object" src="http://placehold.it/64x64" alt="">
 				</a>
 				<div class="media-body">

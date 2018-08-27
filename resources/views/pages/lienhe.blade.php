@@ -24,20 +24,19 @@
 
 					<div class="break"></div>
 					<h4><span class= "glyphicon glyphicon-home "></span> Địa chỉ : </h4>
-					<p>90-92 Lê Thị Riêng, Quận 1, Bến Thành, HCM </p>
+					
 
 					<h4><span class="glyphicon glyphicon-envelope"></span> Email : </h4>
-					<p>90-92 Lê Thị Riêng, Quận 1, Bến Thành, HCM </p>
-
+					
 					<h4><span class="glyphicon glyphicon-phone-alt"></span> Điện thoại : </h4>
-					<p>90-92 Lê Thị Riêng, Quận 1, Bến Thành, HCM </p>
+					
 
 
 
 					<br><br>
 					<h3><span class="glyphicon glyphicon-globe"></span> Bản đồ</h3>
 					<div class="break"></div><br>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.5201952559787!2d106.68891131458902!3d10.771412992324944!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3c586421ef%3A0xb606461dc7627921!2zVHJ1bmcgVMOibSDEkMOgbyBU4bqhbyBUaW4gSOG7jWMgS2hvYSBQaOG6oW0!5e0!3m2!1svi!2s!4v1465285414810" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/place/330+Nguy%E1%BB%85n+Tr%C3%A3i,+Thanh+Xu%C3%A2n+Trung,+Thanh+Xu%C3%A2n,+H%C3%A0+N%E1%BB%99i,+Vietnam/@20.9960725,105.80909,21z/data=!4m18!1m12!4m11!1m3!2m2!1d105.8083027!2d20.9963088!1m6!1m2!1s0x3135acbf0df2c0e5:0xd740a66998e1a0ed!2zxJHhuqFpIGjhu41jIGtob2EgaOG7jWMgdOG7sSBuaGnDqm4gZ29vZ2xlIG1hcA!2m2!1d105.807959!2d20.996017!3m4!1s0x3135ac96f04789b9:0xb28f5b5b310d44fd!8m2!3d20.9960525!4d105.8091473" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 				</div>
 			</div>
