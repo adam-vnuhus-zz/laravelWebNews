@@ -34,16 +34,16 @@
 			    <ul class="nav navbar-nav pull-right">
                     @if(!(auth()->check()))
 
-                        <!-- <li>
+                        <li>
                             <a href="dangky">Đăng ký</a>
-                        </li> -->
+                        </li>
                         <li>
                             <a href="dangnhap">Đăng nhập</a>
                         </li>
                     @else
 
                         <li>
-                        	<a>
+                        	<a href="nguoidung">
                         		<span class ="glyphicon glyphicon-user"></span>
                         		{{auth()->user()->name}}
                         	</a>

@@ -115,10 +115,18 @@ Route::get('loaitin/{id}/{TenKhongDau}.html','PagesController@loaitin');
 
 Route::get('tintuc/{id}/{TieuDeKhongDau}.html','PagesController@tintuc');
 
+// Trang quan ly nguoi dung
+Route::get('nguoidung','PagesController@getNguoidung');
+Route::post('nguoidung','PagesController@postNguoidung');
+
 // Đăng nhập cho client
 Route::get('dangnhap','PagesController@getDangnhap');
 Route::post('dangnhap','PagesController@postDangnhap');
 Route::get('dangxuat','PagesController@getDangxuat');
+
+// Đăng ký
+Route::get('dangky','PagesController@getDangky');
+Route::post('dangky','PagesController@postDangky');
 
 // Bình luận
 Route::post('comment/{id}','CommentController@postComment');
