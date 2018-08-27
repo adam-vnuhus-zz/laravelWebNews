@@ -99,9 +99,8 @@ class PagesController extends Controller
     function Timkiem(Request $request)
     {
         $tukhoa = $request->tukhoa;
-        // $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->orWhere('
-        //     NoiDung','like',"%$tukhoa%")->take(30)->paginate(5);
-        $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->take(30)->paginate(5);
+        $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->orWhere('NoiDung','like',"%$tukhoa%")->orWhere('TomTat','like',"%$tukhoa%")->take(30)->paginate(5);
+        // $tintuc = TinTuc::where('TieuDe','like',"%$tukhoa%")->take(30)->paginate(5);
         return view('pages.timkiem',['tintuc'=>$tintuc,'tukhoa'=>$tukhoa]);
     }
 

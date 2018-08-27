@@ -9,7 +9,7 @@
 
 		<div class="col-md-9 ">
 			<div class="panel panel-default">
-				<div class="panel-heading" style="background-color:#337AB7; color:white;">
+				<div class="panel-heading" style="background-color:#33B739; color:white;">
 					<h4><b>{{$loaitin->Ten}}</b></h4>
 				</div>
 
