@@ -6,7 +6,7 @@
 <div class="container">
 
 	<!-- slider -->
-	<div class="row carousel-holder">
+	<div class="row carousel-holder" style="padding-top: 15px;">
 		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">

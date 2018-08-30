@@ -18,6 +18,8 @@ class PagesController extends Controller
     // Cứ gọi pagescontroller tự động truyền biến theloai
 	function __construct()
 	{
+    
+        // Khoa Phạm
 		$theloai = TheLoai::all();
 		$slide = Slide::all();
 		view()->share('theloai',$theloai);
@@ -31,8 +33,13 @@ class PagesController extends Controller
 
     function trangchu()
     {
-    	
-    	return view('pages.trangchu');
+    	$tintuc = TinTuc::all();
+        $tinnoibat = TinTuc::where('NoiBat',1)->take(4)->get();
+        
+        
+
+        // Khoa Phạm
+    	return view('pages.trangchu',['tintuc'=>$tintuc,'tinnoibat'=>$tinnoibat]);
     }
 
     function lienhe()

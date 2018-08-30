@@ -3,11 +3,11 @@
 @section('content')
 
 <!-- Page Content -->
-<div class="container">
-	<div class="row">
-		@include('layout.menu')
+<div class="container" style="padding-top: 15px;">
+	<!-- <div class="row"> -->
+		<!-- @include('layout.menu') -->
 
-		<div class="col-md-9 ">
+		<!-- <div class="col-md-9 "> -->
 			<div class="panel panel-default">
 				<div class="panel-heading" style="background-color:#33B739; color:white;">
 					<h4><b>{{$loaitin->Ten}}</b></h4>
@@ -41,9 +41,9 @@
 				
 
 			</div>
-		</div> 
+		<!-- </div>  -->
 
-	</div>
+	<!-- </div> -->
 </div>
 <!-- end Page Content -->
 @endsection

@@ -122,7 +122,7 @@
 						<th>Nội dung</th>
 						<th>Ngày đăng</th>
 						
-						<th>Delete</th>	
+						<th>Hành động</th>	
 					</tr>
 				</thead>
 				<tbody>

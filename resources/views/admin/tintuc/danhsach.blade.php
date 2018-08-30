@@ -26,8 +26,8 @@
 						<th>Loại tin</th>
 						<th>Số lần xem</th>
 						<th>Nổi bật</th>
-						<th>Delete</th>
-						<th>Edit</th>
+						<th>Xóa</th>
+						<th>Sửa</th>
 					</tr>
 				</thead>
 				<tbody>

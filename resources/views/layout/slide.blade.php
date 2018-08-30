@@ -1,6 +1,6 @@
 <!-- slider -->
 <div class="row carousel-holder">
-    <div class="col-md-12">
+    <div class="col-md-12" style="padding-bottom: 15px;">
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <?php $i=0; ?>
